@@ -1,0 +1,13 @@
+{
+  "config": "pages.json",
+  "theme": "template",
+  "sample": null,
+  "version": "0.167.0",
+  "slug": "hugo-mana-theme",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/Hyuk-00/Profile-H.git",
+  "baseURL": "https://hyuk-00.github.io/Profile-H/",
+  "audited": true
+}

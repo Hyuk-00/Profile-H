@@ -16,3 +16,15 @@ Thumbs.db
 *.swp
 *.swo
 
+# Prepared Hugo Pages site
+!/site/
+!/site/**
+!/.github/
+!/.github/**
+!/.github-pages.json
+/public/
+/.pages-tools/
+**/node_modules/
+**/resources/_gen/
+**/.hugo_build.lock
+/.github-pages-setup-backups/
