@@ -6,10 +6,7 @@
 <script>
   // Set theme immediately to prevent flash
   (function () {
-    const storedTheme = localStorage.getItem("theme");
-    const systemPrefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-    const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
-    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme", "dark");
   })();
   // Page transition: read direction before any external resources load
   (function(){var t=sessionStorage.getItem('mana_pt');if(t){document.documentElement.setAttribute('data-page-enter',t);sessionStorage.removeItem('mana_pt');}})();
