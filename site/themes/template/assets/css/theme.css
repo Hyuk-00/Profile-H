@@ -16,7 +16,7 @@ html {
 
 :root {
   /* Nebula Glass Color Palette */
-  --bg-deep: #020617; /* Deep Midnight Blue */
+  --bg-deep: #15173d; /* match avatar background */
   --accent-primary: #b063e0; /* Primary Purple */
   --accent-mid-purple: #c485f6; /* Mid Purple */
   --accent-light-purple: #dbabff; /* Light Purple */
@@ -29,9 +29,9 @@ html {
   --bg-primary: var(--bg-deep);
   --bg-secondary: var(--glass-surface);
   --bg-tertiary: rgba(255, 255, 255, 0.08);
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --text-muted: #ffffff;
   --accent-hover: #c485f6;
   --border-color: var(--glass-border);
   /* Dark theme rgba values for effects */
@@ -144,13 +144,7 @@ body {
     background-color var(--transition-base),
     color var(--transition-base);
 
-  /* Nebula Glass Background: Radial gradient (lighter blue in center, black at edges) */
-  background-image: radial-gradient(
-    circle at center,
-    rgba(30, 58, 138, 0.3) 0%,
-    rgba(15, 23, 42, 0.5) 40%,
-    var(--bg-deep) 100%
-  );
+  background-image: none;
   background-attachment: fixed;
   background-size: 100% 100%;
   background-position: center center;
