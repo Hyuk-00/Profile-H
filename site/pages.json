@@ -23,6 +23,7 @@
     "template"
   ],
   "title": "Hyuk_Profile",
+  "languageCode": "ko",
 
   "params": {
   "description": "안녕하세요. 전북대 학생 홍준혁입니다. 최근 개발에 관심이 생겨 공부하고 있습니다."
