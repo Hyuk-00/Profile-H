@@ -1,5 +1,5 @@
 ---
-title: 학습
+title: Study
 date: 2026-11-03
 draft: false
 ---
