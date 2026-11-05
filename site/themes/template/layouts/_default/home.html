@@ -14,16 +14,18 @@
               <span class="hero-title-line2">{{ site.Params.heroTitleLine2 }}</span>
             {{ end }}
           </h1>
-          {{ if site.Params.description }}
-            <p class="hero-subtitle">&gt; {{ site.Params.description }}</p>
-          {{ else if .Description }}
-            <p class="hero-subtitle">&gt; {{ .Description }}</p>
-          {{ end }}
-          {{ if site.Params.social }}
-            <div class="hero-social">
-              {{ partial "social-links.html" . }}
-            </div>
-          {{ end }}
+          <div class="hero-intro">
+            {{ if site.Params.description }}
+              <p class="hero-subtitle">&gt; {{ site.Params.description }}</p>
+            {{ else if .Description }}
+              <p class="hero-subtitle">&gt; {{ .Description }}</p>
+            {{ end }}
+            {{ if site.Params.social }}
+              <div class="hero-social">
+                {{ partial "social-links.html" . }}
+              </div>
+            {{ end }}
+          </div>
         </div>
         <div class="hero-image">
           {{ $avatarUrl := site.Params.avatar.home.url | default site.Params.avatar.url }}

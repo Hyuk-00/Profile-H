@@ -90,3 +90,18 @@
     transform: translateY(-20px);
   }
 }
+
+.hero-intro {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.hero-intro .hero-subtitle {
+  margin: 0;
+}
+
+.hero-social {
+  flex-shrink: 0;
+}
