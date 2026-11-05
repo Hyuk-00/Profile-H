@@ -46,3 +46,9 @@
   width: var(--icon-md);
   height: var(--icon-md);
 }
+
+.footer-credit {
+  margin: var(--spacing-md) 0 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
