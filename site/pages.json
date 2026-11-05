@@ -27,9 +27,9 @@
 
   "params": {
     "description": "안녕하세요. 전북대 학생 홍준혁입니다. 최근 개발에 관심이 생겨 공부하고 있습니다.",
+    "footerText": "Hugo와 Mana 테마(Livour, MIT 라이선스)로 제작했습니다.",
     "social": {
-      "github": "https://github.com/Hyuk-00",
-      "footerText": "Hugo와 Mana 테마(Livour, MIT 라이선스)로 제작했습니다."
+      "github": "https://github.com/Hyuk-00"
     }
   },
   "menus": {
