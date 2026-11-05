@@ -68,7 +68,7 @@
   max-width: 100%;
   height: auto;
   filter: drop-shadow(0 0 10px var(--accent-primary-rgba-03));
-  animation: float 3s ease-in-out infinite;
+  animation: none;
 }
 
 .hero-logo-placeholder {
@@ -78,7 +78,7 @@
   border-radius: 50%;
   border: 2px solid var(--glass-border);
   filter: drop-shadow(0 0 20px var(--accent-primary-rgba-05));
-  animation: float 3s ease-in-out infinite;
+  animation: none;
 }
 
 @keyframes float {
