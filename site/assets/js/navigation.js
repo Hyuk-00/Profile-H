@@ -95,6 +95,8 @@ function initMobileMenu() {
     mobileMenu.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
     document.body.classList.add("mobile-menu-open");
+    const firstLink = mobileMenu.querySelector(".menu-link");
+    if (firstLink) setTimeout(() => firstLink.focus(), 50);
   }
 
   function closeMobileMenu() {
