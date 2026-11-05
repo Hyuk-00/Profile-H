@@ -2,6 +2,7 @@
 title: Key Activities
 date: 2026-11-03
 draft: false
+weight: 2
 summary: 대표 활동에 대한 내용을 정리했습니다.
 ---
 ## 활동 목적 {#purpose}

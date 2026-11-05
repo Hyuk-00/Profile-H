@@ -2,6 +2,7 @@
 title: Study
 date: 2026-11-03
 draft: false
+weight: 1
 summary: 저의 관심 분야, 계기, 사용하는 기술, 앞으로의 학습 목표를 소개합니다.
 ---
 ## 관심 분야 {#interest}
