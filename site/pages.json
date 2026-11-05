@@ -35,6 +35,12 @@
   "menus": {
     "main": [
       {
+        "identifier": "home",
+        "name": "Home",
+        "pageRef": "/",
+        "weight": 0
+      },
+      {
         "identifier": "study",
         "name": "Study",
         "pageRef": "/posts/study",
