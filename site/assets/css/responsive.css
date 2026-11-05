@@ -283,3 +283,7 @@
 .mobile-menu-nav .menu-sublink {
   font-size: 0.9rem;
 }
+
+html {
+  scroll-padding-top: 5.5rem;
+}
