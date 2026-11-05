@@ -262,3 +262,24 @@
     padding: 0.25rem;
   }
 }
+
+.mobile-menu-toggle {
+  display: flex;
+  order: -1;
+}
+
+.header-menu .menu-list {
+  display: none;
+}
+
+
+.menu-sublist {
+  list-style: none;
+  margin: var(--spacing-xs) 0 0 var(--spacing-md);
+  padding-left: var(--spacing-sm);
+  border-left: 1px solid var(--border-color);
+}
+
+.mobile-menu-nav .menu-sublink {
+  font-size: 0.9rem;
+}
