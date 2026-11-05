@@ -30,6 +30,29 @@
     "social": {
       "github": "https://github.com/Hyuk-00"
     }
+  },
+  "menus": {
+    "main": [
+      {
+        "identifier": "study",
+        "name": "Study",
+        "pageRef": "/posts/study",
+        "weight": 1
+      },
+      {
+        "identifier": "activities",
+        "name": "Key Activities",
+        "pageRef": "/posts/key_activities",
+        "weight": 2
+      },
+      {
+        "name": "Process and Results of Execution",
+        "pageRef": "/posts/process_and_results_of_execution",
+        "parent": "activities",
+        "weight": 1
+      }
+    ]
   }
 }
+
 
