@@ -68,6 +68,5 @@
   {{ if and site.Params.avatar site.Params.avatar.home.assetPath }}
     {{ $webSite = merge $webSite (dict "publisher" (dict "@type" "Organization" "name" site.Title "logo" (dict "@type" "ImageObject" "url" (site.Params.avatar.home.assetPath | absURL)))) }}
   {{ end }}
-  {{ $webSite = merge $webSite (dict "potentialAction" (dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%s?q={search_term_string}" site.BaseURL)) "query-input" "required name=search_term_string")) }}
 {{ printf "<script type=\"application/ld+json\">%s</script>" ($webSite | jsonify) | safeHTML }}
 {{ end }}
