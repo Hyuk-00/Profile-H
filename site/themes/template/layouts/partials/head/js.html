@@ -1,6 +1,5 @@
 {{ $constants := resources.Get "js/common/constants.js" }}
 {{ $utils := resources.Get "js/utils.js" }}
-{{ $search := resources.Get "js/search.js" }}
 {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
 {{ $navigation := resources.Get "js/navigation.js" }}
 {{   $toc := resources.Get "js/toc.js" }}
@@ -10,5 +9,5 @@
 {{ $languageSwitcher := resources.Get "js/language-switcher.js" }}
 {{ $pageTransitions := resources.Get "js/page-transitions.js" }}
 {{ $readingProgress := resources.Get "js/reading-progress.js" }}
-{{ $js := slice $constants $utils $search $scrollToTop $navigation $toc $filters $codeBlocks $blockquotes $languageSwitcher $pageTransitions $readingProgress | resources.Concat "js/main.js" | minify | fingerprint }}
+{{ $js := slice $constants $utils $scrollToTop $navigation $toc $filters $codeBlocks $blockquotes $languageSwitcher $pageTransitions $readingProgress | resources.Concat "js/main.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
