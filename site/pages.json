@@ -38,19 +38,19 @@
         "identifier": "home",
         "name": "Home",
         "pageRef": "/",
-        "weight": 0
+        "weight": 1
       },
       {
         "identifier": "study",
         "name": "Study",
         "pageRef": "/posts/study",
-        "weight": 1
+        "weight": 2
       },
       {
         "identifier": "activities",
         "name": "Key Activities",
         "pageRef": "/posts/key_activities",
-        "weight": 2
+        "weight": 3
       },
       {
         "name": "Process and Results of Execution",
