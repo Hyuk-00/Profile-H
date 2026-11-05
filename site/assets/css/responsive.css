@@ -287,3 +287,7 @@
 html {
   scroll-padding-top: 5.5rem;
 }
+.menu-link.active {
+  font-weight: 700;
+  box-shadow: inset 3px 0 0 currentColor;
+}
